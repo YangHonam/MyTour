@@ -1,8 +1,5 @@
 package com.example.yanghonam.mytour;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
@@ -18,6 +15,7 @@ public class PlaceActivity extends FragmentActivity {
     }
 
     public void onClick(View v) {
+
         MyMapFragment map_frag;
         MyInfoFragment info_frag;
 

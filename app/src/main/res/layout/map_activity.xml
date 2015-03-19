@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<fragment
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+
+    android:id="@+id/map_fragment"
+    class="com.google.android.gms.maps.MapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <fragment
-        android:id="@+id/map_Fragment"
-        class="com.google.android.gms.maps.MapFragment"
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </fragment>
-
-</LinearLayout>
+</fragment>
